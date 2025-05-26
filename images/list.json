@@ -1,0 +1,18 @@
+{
+  "minecraft": ["mc-1.png", "mc-2.png", "mc-3.png", "mc-4.png"],
+  "fortnite": [
+    "fortnite-1.png",
+    "fortnite-2.png",
+    "fortnite-3.png",
+    "fortnite-4.png"
+  ],
+  "leagueoflegends": ["lol-1.png", "lol-2.png", "lol-3.png", "lol-4.png"],
+  "amongus": [
+    "amongus-1.png",
+    "amongus-2.png",
+    "amongus-3.png",
+    "amongus-4.png"
+  ],
+  "csgo": ["csgo-1.png", "csgo-2.png", "csgo-3.png", "csgo-4.png"],
+  "index": ["mc.png", "fortnite.png", "lol.png", "amongus.png", "csgo.png"]
+}
