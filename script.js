@@ -48,7 +48,7 @@ fetch("images/list.json")
 // has a bug when deployed on github pages, but works locally
 // the bug is the variable name is blank when deployed
 function loadss() {
-  const games = ["minecraft", "fortnite", "leagueoflegends", "amongus", "csgo"];
+  const games = ["minecraft", "fortnite", "lol", "amongus", "csgo"];
   var name = window.location.pathname.split("/").pop();
   if (!name) {
     if (document.title === "Game Reviews") name = "index.html";
