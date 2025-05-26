@@ -45,10 +45,14 @@ fetch("images/list.json")
     loadss();
   });
 //Loads screenshots dynamically
-
+// has a bug when deployed on github pages, but works locally
+// the bug is the variable name is blank when deployed
 function loadss() {
   const games = ["minecraft", "fortnite", "leagueoflegends", "amongus", "csgo"];
   var name = window.location.pathname.split("/").pop();
+  if (!name) {
+    if (document.title === "Game Reviews") name = "index.html";
+  }
   var folder = screenshots[name];
   var i = 0;
   const main = document.querySelector("main");
